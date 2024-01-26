@@ -1,0 +1,308 @@
+@import url(./fonts.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.header .content{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: white;
+}
+
+.header .content h2{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 150%;
+}
+
+.header img{
+    height: 100%;
+}
+
+
+@media screen and (max-width:1000px) {
+    .header{
+        padding-top: 100px;
+        flex-direction: column;
+        height: 100%;
+    }
+    .header .content{
+        width: 60%;
+    }
+    .header img{
+        height: 400px;
+    }
+}
+
+
+.news{
+    width: 100%;
+    margin: 70px 0;
+}
+
+.news #title{
+    margin-left: 100px;
+    font-weight: 700; 
+    font-size: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.news .card{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow: hidden;
+}
+
+.news .date{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    padding-top: 13px;
+    font-size: 13px;
+    background-color: #FFE50D;
+    border-radius: 50%;
+    justify-self: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.date span{
+    font-size: 26px;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+.news .img{
+    width: 100%;
+    height: 55%;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.news .card:nth-of-type(1) .img{
+    background-image: url("https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb05d2ed3-38cd-4521-9bbf-02ed0a100348_820x546.jpeg");   
+}
+
+.news .card:nth-of-type(2) .img{
+    background-image: url("https://eco-business.imgix.net/uploads/ebmedia/fileuploads/us-weather-snow-mi_2782125b.jpg?fit=crop&h=960&ixlib=django-1.2.0&w=1440");
+}
+
+.news .card:nth-of-type(3) .img{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0a/Forest_clearing_from_above_1_%28Unsplash%29.jpg");
+}
+
+.news .img h2{
+    padding: 7px 12px;
+    color: rgb(228,228,228);
+    background-color: #0000009a;
+    border-radius: 0 20px 0 0;
+}
+
+.news .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 30px 0 30px;
+}
+
+.news .content p{
+    width: 93%;
+    font-size: 16px;
+}
+
+.news .content .icons{
+    margin-top: 30px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b9b9b9;
+    bottom: 0;
+}
+
+.news .content .icons i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.news .content .icons p{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+/* STATISTICS */
+ .stats{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 100px;
+    background-color: black;
+    color: white;
+}
+
+.stats img{
+    height: 450px;
+}
+
+.stats .content{
+    width: 40%;
+}
+
+.stats #title{
+    font-weight: 700; 
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.stats .content button{
+    width: auto;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #ffffff37;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600 ;
+
+}
+
+.stats .content i{
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+.stats .content button:hover{
+    background: #ffffff6c;
+}
+
+svg{
+    margin-top:-2px ;
+}
+
+/* Steps */
+
+.steps{
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.steps img{
+    width: 600px;
+    border-radius: 80px;
+}
+
+.steps .content{
+    width: 40%;
+}
+
+.steps .content #title{
+    font-weight: 700; 
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.steps .content button{
+    padding: 10px;
+    margin:15px 0;
+    color: white;
+    font-size:16px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600 ;
+    border: none;
+    border-radius: 10px;
+    background: lightgrey;
+    cursor: pointer;
+}
+
+.steps .content i{
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+.steps .content button:hover{
+    background: #00000068;
+}
+
+/* Back to top button */
+.back2top{
+    display: none;
+    
+}
+.show{
+    width: 55px;
+    height: 55px;
+    font-size: 40px;
+    border-radius: 50%;
+    border: 7px solid #FFDB58;
+    color: #FFDB58;
+    transition: 0.2s ease;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show:hover{
+    background-color: #FFDB58;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+    
+ 
+    
+

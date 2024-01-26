@@ -1,0 +1,175 @@
+@import url(./fonts.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2022/05/21/21/47/river-7212351_1280.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 150px;
+    
+}
+
+.header .content{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    color: white;
+}
+
+.header .content h2{
+    font-size:60px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* NEWS */
+.main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.news{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+    height: 450px;
+}
+
+.news:nth-of-type(2), .news:nth-of-type(4){
+    background:#b8b8b81a;
+}
+
+.news .cont{
+    width: 600px;
+}
+
+.news h2{
+    font-size: 30px;
+}
+
+.news img{
+    height: 400px;   
+}
+
+.news .cont button{
+    width: auto;
+    padding: 7px 10px;
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #2b2b2b27;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600 ;
+}
+
+.news .cont button:hover{
+    background: #2b2b2b53;
+}
+
+
+
+
+
+
+
+
+
+/* 
+.news{
+    margin: 25px 0;
+    border-bottom: 1.8px solid rgb(194, 194, 194);
+}
+
+.news:last-of-type{
+    border-bottom: none;
+}
+
+.news .img{
+    width: 100%;
+    height: 430px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news .img img{
+    width: 100%;
+}
+
+.news .cont{
+    margin-top: 30px;
+}
+
+.news .cont p{
+    width: 95%;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(95, 95, 95);
+}
+
+.news .cont button{
+    width: 150px;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 16px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, rgba(147,188,251,1) 0%, rgba(187,241,255,1) 100%);
+    cursor: pointer;
+}
+
+
+.container .side{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .side h2{
+    margin: 15px 0;
+}
+
+.container .side .post{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 70px;
+    color: rgb(8, 13, 45);
+}
+
+.post .img{
+    height: 90%;
+    overflow: hidden;
+}
+
+.post .img img{
+    width:100%;
+}
+
+ */

@@ -1,0 +1,146 @@
+@import url(./fonts.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* HEADER */
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.header .content{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    color: white;
+}
+
+.header .content h2{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 150%;
+}
+
+.header img{
+    height: 500px;
+}
+
+/* WAVE */
+#wave{
+    width: 100vw;
+    margin-top: -30px;
+    margin-bottom: -150px;
+}
+
+/* STEPS */
+.ways{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    margin-top: 40px;
+    padding: 30px;
+    padding-bottom: 80px;
+    background-color: #FAF9F6;
+}
+
+.ways .cont{
+    width: 65%;
+    padding: 20px;
+    text-align: center;
+}
+
+.ways .cont h2{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.ways .cont p{
+    font-weight: 500;
+    color: #353535;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.cards .card{
+    width: 280px;
+    height: 250px;
+    background-color: #e9e9e9;
+    border-radius:10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards .card img{
+    height: 120px;
+}
+
+.cards .card h3{
+    font-size: 20px;
+}
+
+/* SUCESS STORIES */
+.success{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.success img{
+    width: 650px;
+    border-radius: 40px;
+}
+
+.success .cont{
+    width: 40%;
+    text-align: left;
+}
+
+.success .cont h2{
+    font-size: 45px;
+}
+
+.success1{
+    background-color: black;
+    color: white;
+    padding: 70px 0 40px 0;
+}
+
+.success1 p{
+    color: #d3d3d3;
+}
+
+.success2{
+    padding:20px 0 40px;
+}
+
+#wave2{
+    margin-top: -20px;
+}
+

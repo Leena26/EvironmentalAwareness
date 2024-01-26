@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics - Planetastic</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/stats.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https:/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="nav">
+        <a href="./home.html">
+            <p id="logo"> <span>Planet</span>astic</p>
+        </a>
+
+        <ul class="horizontal">
+            <a href="./home.html"><li>Home</li></a>
+            <a href="./stats.html"  id="underLine"><li>stats</li></a>
+            <a href="./news.html"><li>news</li></a>
+            <a href="./steps.html"><li>small steps</li></a>
+            <a href="./support.html"><button>support</button></a>
+        </ul>
+
+        <ul class="hamburger">
+            <div class="icon cancel-btn">
+                <i class="fa fa-times"></i>
+            </div>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./stats.html">stats</a></li>
+            <li><a href="./news.html">news</a></li>
+            <li><a href="./steps.html">small steps</a></li>
+            <li><a href="./support.html">support</a></li>
+        </ul>
+        <div class="icon menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+     <!-- HEADER -->
+     <div class="header">
+        <div class="content">
+            <h2>World Statistics</h2>
+            <p>Worldwide environmental statistics reveal a worrisome scenario. Rising sea levels imperil coastal areas, escalating energy consumption intensifies our carbon footprint, CO2 emissions exacerbate climate change, and pollution further degrades air and water quality. Immediate and collective actions are crucial to reverse these trends and build a sustainable, healthier future.</p>
+        </div>
+    </div>
+
+
+    <div class="climate">
+        <h2>What is <span>Climate change? </span></h2>
+        <p>Climate change refers to long-term alterations in Earth's climate, including temperature shifts and weather pattern disruptions. Primarily caused by human activities, like burning fossil fuels and deforestation, it intensifies global warming. Climate change is intricately linked to our environment, impacting ecosystems, biodiversity, sea levels, and overall planetary health.</p>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <div class="img"></div>
+            <div class="cont">
+                <h3>Energy Demand</h3>
+                <p>Growing energy demand strains resources, requiring sustainable solutions for consumption.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img"></div>
+            <div class="cont">
+                <h3>CO<sub>2</sub> Emissions </h3>
+                <p>Rising CO2 emissions accelerate climate change, posing severe environmental repercussions globally.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="img"></div>
+            <div class="cont">
+                <h3>Deforestation</h3>
+                <p>Escalating deforestation threatens biodiversity, disrupts ecosystems, and amplifies climate change impacts.</p>
+            </div>
+        </div>
+    </div>
+    
+    <svg id="wave" style = "transition: 0.3s" viewBox="0 0 1440 160" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(0, 0, 0, 1)" offset="0%"></stop><stop stop-color="rgba(62.657, 62.657, 62.657, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,96L18.5,80C36.9,64,74,32,111,40C147.7,48,185,96,222,96C258.5,96,295,48,332,24C369.2,0,406,0,443,16C480,32,517,64,554,66.7C590.8,69,628,43,665,40C701.5,37,738,59,775,77.3C812.3,96,849,112,886,104C923.1,96,960,64,997,58.7C1033.8,53,1071,75,1108,80C1144.6,85,1182,75,1218,66.7C1255.4,59,1292,53,1329,66.7C1366.2,80,1403,112,1440,106.7C1476.9,101,1514,59,1551,48C1587.7,37,1625,59,1662,77.3C1698.5,96,1735,112,1772,101.3C1809.2,91,1846,53,1883,50.7C1920,48,1957,80,1994,77.3C2030.8,75,2068,37,2105,26.7C2141.5,16,2178,32,2215,34.7C2252.3,37,2289,27,2326,42.7C2363.1,59,2400,101,2437,122.7C2473.8,144,2511,144,2548,128C2584.6,112,2622,80,2640,64L2658.5,48L2658.5,160L2640,160C2621.5,160,2585,160,2548,160C2510.8,160,2474,160,2437,160C2400,160,2363,160,2326,160C2289.2,160,2252,160,2215,160C2178.5,160,2142,160,2105,160C2067.7,160,2031,160,1994,160C1956.9,160,1920,160,1883,160C1846.2,160,1809,160,1772,160C1735.4,160,1698,160,1662,160C1624.6,160,1588,160,1551,160C1513.8,160,1477,160,1440,160C1403.1,160,1366,160,1329,160C1292.3,160,1255,160,1218,160C1181.5,160,1145,160,1108,160C1070.8,160,1034,160,997,160C960,160,923,160,886,160C849.2,160,812,160,775,160C738.5,160,702,160,665,160C627.7,160,591,160,554,160C516.9,160,480,160,443,160C406.2,160,369,160,332,160C295.4,160,258,160,222,160C184.6,160,148,160,111,160C73.8,160,37,160,18,160L0,160Z"></path></svg>
+
+
+    <div class="data">
+        <div class="cont">
+            <h2>Greenhouse gas emissions</h2>
+            <p>The surge in greenhouse gas emissions, notably methane and carbon dioxide, is a consequence of human-driven activities, primarily from land use changes and the burning of fossil fuels. These gases intensify the natural greenhouse effect, trapping heat in the Earth's atmosphere.
+            This enhanced heat retention results in global warming and climate change. The consequences include rising temperatures, altered precipitation patterns, sea level rise, and more frequent extreme weather events. The intricate link between human activities, greenhouse gas emissions, and their cascading impact on the climate underscores the urgent need for sustainable practices and a transition to cleaner energy sources to mitigate these detrimental effects.</p>
+        </div>
+        
+        <iframe src="https://cdn.climatechangetracker.org/embedding/yearly-human-induced-greenhouse-gas-emissions-in-co2-equivalent?theme=dark&shadow=false&br=false" scrolling="no" frameBorder="0" ></iframe>
+    </div>
+
+    <div class="deforest">
+        <div>
+            <h2>Trees vanish, habitats shrink, and Earth faces environmental woes.</h2>
+            <iframe src='https://www.theworldcounts.com/embeds/counters/93?font_size=20'></iframe>
+        </div>
+    </div>
+
+    
+    <div class="bio">
+        <div class="collage">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cont">
+            <h2>Loss of Biodiversity</h2>
+            <p>The erosion of biodiversity is starkly illustrated by the extinction of emblematic species, victims of human activities, habitat degradation, and poaching. The Balinese tiger, Spix's macaw, and Hokkaido wolf, once integral to their ecosystems, succumbed to relentless pressures. The Balinese tiger vanished in Bali's forests due to hunting and habitat loss. Brazil's vibrant Spix's macaw faced habitat destruction and illegal trapping. Similarly, the Hokkaido wolf, native to Japan, fell to persecution and habitat fragmentation. Their extinctions illuminate the pressing need for holistic conservation measures to safeguard the intricate web of life, ensuring a harmonious coexistence between humans and nature.</p>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <ul>
+            <a href="./stats.html"><li>stats</li></a>
+            <a href="./news.html"><li>news</li></a>
+            <a href="./steps.html"><li>small steps</li></a>
+            <a href="./support.html"><li>support</li></a>
+        </ul>
+
+        <a href="./home.html">
+            <p id="logo"> <span>Planet</span>astic</p>
+        </a>
+    </footer>
+
+    <script src="./nav.js"></script>
+
+</body>
+</html>

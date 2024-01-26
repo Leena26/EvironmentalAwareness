@@ -1,0 +1,243 @@
+@import url(./fonts.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* HEADER */
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2014/02/05/08/19/smoke-258786_1280.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 150px;
+    
+}
+
+.header .content{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    color: white;
+}
+
+.header .content h2{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 150%;
+}
+
+/* CLIMATE */
+.climate{
+    width: 100vw;
+    height: 300px;
+    padding: 50px;
+    background-color: #FAF9F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.climate h2{
+    font-size: 35px;
+}
+
+.climate h2 span{
+    text-transform: uppercase;
+}
+
+.climate p{
+    width: 70%;
+    text-align: center;
+}
+
+
+/* CARDS */
+
+.cards{
+    width: 100vw;
+    margin-top: -100px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.card{
+    width: min-content;
+    height: 430px;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card:nth-of-type(1) .img{
+    background: url("https://cdn.pixabay.com/photo/2022/08/06/06/03/windmill-7367963_1280.jpg");
+    background-size: cover;
+}
+
+.card:nth-of-type(2) .img{
+    background: url("https://cdn.pixabay.com/photo/2022/11/06/23/39/climate-change-issue-7575216_1280.jpg");
+    background-size: cover;
+}
+
+.card:nth-of-type(3) .img{
+    background: url("https://cdn.pixabay.com/photo/2016/11/29/07/29/wood-1868104_1280.jpg");
+    background-size: cover;
+}
+
+.card .img{
+    width: 230px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.card .cont{
+    margin-top: 20px;
+}
+
+.card .cont p{
+    font-size: 15px;
+}
+
+/* DATA  */
+
+.data{
+    width: 100vw;
+    height: min-content;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-top: -10px;
+}
+
+.data .cont{
+    width:40% ;
+    color: #E5E4E2;
+}
+
+.data .cont h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.data .cont p{
+    font-size: 15px;
+}
+
+.data iframe{
+    width: 50%;
+    height: 380px;
+}
+
+/* Live Stats */
+.deforest{
+    /* background-color: pink; */
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.deforest div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    width: 60%;
+    height: 350px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.deforest div h2{
+    font-size: 40px;
+}
+
+.deforest div iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Biodiversity */
+.bio{
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bio .collage{
+    width: 450px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.bio .collage div:nth-of-type(1){
+    background: url("https://cdn.pixabay.com/photo/2015/08/11/10/26/ara-ararauna-883748_1280.jpg");
+    background-size: 100%;
+    border-top-left-radius: 20px;
+}
+
+.bio .collage div:nth-of-type(2){
+    background: url("https://i2.pickpik.com/photos/934/924/1018/arctic-wolfdog-wolfdog-wolf-dog-preview.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    border-top-right-radius: 20px;
+}
+
+.bio .collage div:nth-of-type(3){
+    background: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEyL2ZsNTIzMDE2NTQzMTYtaW1hZ2UuanBn.jpg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 20px;
+}
+
+.bio .collage div:nth-of-type(4){
+    background: url("https://i.redd.it/bsdjb8ksb6na1.jpg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 20px;
+}
+
+.bio .cont{
+    width: 40%;
+}
+
+.bio .cont h2{
+    font-weight: 700; 
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+
